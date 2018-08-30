@@ -19,6 +19,14 @@ p{
     color: #333333;
     font-size: 14px;
 }
+i{
+    margin-top: 17px;
+    margin-left: 1%;/*ltr*/
+    cursor: pointer;
+}
+.service-p,.service-title,.features,.line_shape2,.image_bg_shape,.Layer_4_copy,.dotted,.overlay,#read-more,.about-p,.about-title,.Experiance,.line_shape,.about-img,img,.about-img,.pic,#read-more-3,#read-more-2{
+    position: absolute
+}
 .read-more{
     color: #fff;
     background-color: #3c01c8;
@@ -30,10 +38,7 @@ p{
     margin-top: 2%;
     font-size: 10px;
     box-shadow: 2px 2px 5px black;
-}
-i{
-    margin-top: 17px;
-    margin-left: 1%;/*ltr*/
+    cursor: pointer;
 }
 
 /** Style **/
@@ -84,7 +89,6 @@ i{
     display: block;
     border-radius: 25px;
     transform: rotate(-16deg);
-    position: absolute;
     z-index: 2;
     right: -150px;/*ltr*/
     top: -41px;
@@ -119,7 +123,6 @@ i{
     border-style: solid;
     background-color: rgb(60, 1, 200);
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-    position: absolute;
     left: 175px;
     top: 662px;
     width: 448px;
@@ -127,13 +130,11 @@ i{
     z-index: 645;
 }
 .about-img img{
-    position: absolute;
     width: inherit;
     height: inherit;
 }
 .line_shape {
     background-color: rgb(60, 1, 200);
-    position: absolute;
     left: 674px;
     top: 765.499px;
     width: 82px;
@@ -146,8 +147,6 @@ i{
     font-weight: bold;
     text-transform: uppercase;
     line-height: 3.889;
-    text-align: left;
-    position: absolute;
     left: 764.844px;
     top: 700.499px;
     z-index: 658;
@@ -157,8 +156,6 @@ i{
     color: #000;
     font-weight: bold;
     line-height: 1.167;
-    text-align: left;
-    position: absolute;
     left: 672.937px;
     top: 730.708px;
     z-index: 657;
@@ -170,8 +167,6 @@ i{
     font-size: 14px;
     color: rgb(102, 102, 102);
     line-height: 1.733;
-    text-align: left;
-    position: absolute;
     left: 672.997px;
     top: 947.383px;
     width: 654px;
@@ -179,7 +174,6 @@ i{
     z-index: 654;
 }
 #read-more {
-    position: absolute;
     left: 674px;
     top: 1068px;
     width: 155px;
@@ -188,7 +182,6 @@ i{
 }
 .overlay {
     background-color: rgb(60, 1, 200);
-    position: absolute;
     left: 0px;
     top: 1179px;
     width: 1920px;
@@ -324,7 +317,6 @@ i{
 /* Start Service Section */
 .dotted {
     background-image: url(../img/dotted.png);
-    position: absolute;
     left: 763px;
     top: 1900px;
     width: 302px;
@@ -333,7 +325,6 @@ i{
 }
 .Layer_4_copy {
     background-image: url(../img/Layer-4.png);
-    position: absolute;
     left: 739px;
     top: 1883px;
     width: 360px;
@@ -346,21 +337,60 @@ i{
     border-style: solid;
     border-radius: 50px;
     background-color: rgb(60, 1, 200);
-    position: absolute;
-    left: 773px;
-    top: 1914px;
-    width: 274px;
-    height: 278px;
+    left: 790px;
+    top: 1932px;
+    width: 235px;
+    height: 240px;
     z-index: 588;
+}
+.image_bg_shape img{
+	width: inherit;
+    height: inherit;
+    border-radius: 36px;
 }
 .line_shape2 {
     background-color: rgb(60, 1, 200);
-    position: absolute;
     left: 175px;
     top: 1950px;
     width: 82px;
     height: 2px;
     z-index: 602;
 }
-
+.features {
+    font-size: 18px;
+    color: rgb(60, 1, 200);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3.889;
+    left: 262.844px;
+    top: 1898px;
+    z-index: 601;
+}
+.service-title {
+    font-size: 60px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.167;
+    left: 175px;
+    top: 1920px;
+    z-index: 600;
+}
+.service-p {
+    color: rgb(51, 51, 51);
+    line-height: 1.857;
+    left: 175px;
+    top: 2108px;
+    z-index: 597;
+}
+#read-more-3 {
+    left: 175px;
+    top: 2212px;
+    width: 130px;
+    height: 40px;
+    z-index: 624;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.2;
+    text-align: center;
+}
 /* End Service Section */
